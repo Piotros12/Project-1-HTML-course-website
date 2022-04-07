@@ -2,17 +2,146 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Światowy standard ERP, lider wdrożeń SAP w Polsce">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
-    <title>SystemWind | lider wdrożeń SAP</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/utilities.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Światowy standard ERP, lider wdrożeń SAP w Polsce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+  <title>SystemWind | lider wdrożeń SAP</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/utilities.css">
 </head>
 
 <body>
+  <header>
+    <div class="container flex">
+      <img src="/assets/logo.png" alt="SystemWind - logo strony" class="logo">
+      <nav class="header-navigation">
+        <ul>
+          <li><a href="">Jak to działa?</a></li>
+          <li><a href="">O Nas</a></li>
+          <li><a href="">Oferta</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="btn btn--white btn--small">Zaloguj się</a>
+      <div class="header-navigation--mobile">
+        <input type="checkbox" name="menu" id="menu">
+        <label for="menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.05 11H3.95C3.42533 11 3 11.4253 3 11.95V12.05C3 12.5747 3.42533 13 3.95 13H20.05C20.5747 13 21 12.5747 21 12.05V11.95C21 11.4253 20.5747 11 20.05 11Z" fill="#10235B" />
+            <path d="M20.05 16H3.95C3.42533 16 3 16.4253 3 16.95V17.05C3 17.5747 3.42533 18 3.95 18H20.05C20.5747 18 21 17.5747 21 17.05V16.95C21 16.4253 20.5747 16 20.05 16Z" fill="#10235B" />
+            <path d="M20.05 6H3.95C3.42533 6 3 6.42533 3 6.95V7.05C3 7.57467 3.42533 8 3.95 8H20.05C20.5747 8 21 7.57467 21 7.05V6.95C21 6.42533 20.5747 6 20.05 6Z" fill="#10235B" />
+          </svg>
+        </label>
+        <div class="navigation-mobile-content">
+          <nav>
+            <ul>
+              <li><a href="">Jak to działa?</a></li>
+              <li><a href="">O Nas</a></li>
+              <li><a href="">Oferta</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="btn btn--white btn--small">Zaloguj się</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
+  <main>
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Światowy standard ERP, lider wdrożeń SAP w Polsce</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="showcase-links">
+            <a href="#" class="btn">Zacznij teraz!</a>
+            <a href="#" class="btn btn--white">Dowiedz się więcej</a>
+          </div>
+        </div>
+        <img src="assets/showcase.png" alt="Osoba myśląca nad technologią.">
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <h2 class="text-lg text-center">Ponad 500 tys. zadowolonych klientów</h2>
+        <div class="flex">
+          <a href="#"> <img src="assets/companies/booking.png" alt="Logo firmy booking.com"> </a>
+          <a href="#"><img src="assets/companies/pinterest.png" alt="Logo firmy pinterest"></a>
+          <a href="#"><img src="assets/companies/spotify.png" alt="Logo firmy pinterest"></a>
+          <a href="#"><img src="assets/companies/google.png" alt="Logo firmy google"></a>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <p class="card-number">01</p>
+            <h3 class="text-md">Design</h3>
+            <p class="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+          <div class="card">
+            <p class="card-number">02</p>
+            <h3 class="text-md">Kod strony</h3>
+            <p class="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+          <div class="card">
+            <p class="card-number">03</p>
+            <h3 class="text-md">Chmura</h3>
+            <p class="text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="container">
+        <h2 class="text-lg my-2">System SAP Business One dla małych firm</h2>
+        <div class="grid">
+          <div class="offer-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <img src="assets/offer1.png" alt="Mężczyzna pracujący przy biurku." class="image-left">
+          </div>
+          <div class="offer-item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <img src="assets/offer2.png" alt="Ludzie pracują przy biurku." class="image-right">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="purposes">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h2 class="text-lg my-2">Jak przygotować business case dla projektu IT?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <a href="#" class="btn">Dowiedz się więcej</a>
+          </div>
+          <img src="assets/purpose1.png" alt="Programista myślący nad projektem." class="image-right">
+        </div>
+      </div>
+    </section>
+
+    <section class="join">
+      <div class="container flex">
+        <h2 class="text-lg my-2 text-center">Dołącz do ponad 3000 firm, które osiągnęły sukces dzięki SystemWind</h2>
+        <p class="text-center my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" class="btn">Zacznij teraz</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container flex">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Logo firmy SystemWind" class="logo">
+        <p>ul. Miejska 21, Kraków</p>
+      </div>
+      <div class="footer-info">
+        <p>Copyright SystemWind, 2022. All rights reserved.</p>
+        <p>Obrazki w projekcie są użyte wyłącznie w celach wizualizacyjnych.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
